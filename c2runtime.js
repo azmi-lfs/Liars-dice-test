@@ -21944,4 +21944,3 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Function.prototype.cnds.OnFunction,
 	cr.plugins_.Sprite.prototype.acts.ToggleBoolInstanceVar
 ];};
-
