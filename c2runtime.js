@@ -21897,15 +21897,15 @@ cr.behaviors.Rex_Button2 = function(runtime)
 	};
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.rex_TouchWrap,
-	cr.plugins_.Sprite,
-	cr.plugins_.Touch,
-	cr.plugins_.Text,
 	cr.plugins_.Arr,
 	cr.plugins_.Button,
-	cr.plugins_.Mouse,
 	cr.plugins_.Function,
+	cr.plugins_.Mouse,
 	cr.plugins_.Rex_CSV2Array,
+	cr.plugins_.rex_TouchWrap,
+	cr.plugins_.Sprite,
+	cr.plugins_.Text,
+	cr.plugins_.Touch,
 	cr.behaviors.Rex_Button2,
 	cr.plugins_.Button.prototype.cnds.OnClicked,
 	cr.system_object.prototype.acts.GoToLayout,
@@ -21942,5 +21942,22 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.CompareFrame,
 	cr.plugins_.Function.prototype.acts.CallFunction,
 	cr.plugins_.Function.prototype.cnds.OnFunction,
-	cr.plugins_.Sprite.prototype.acts.ToggleBoolInstanceVar
+	cr.plugins_.Sprite.prototype.acts.ToggleBoolInstanceVar,
+	cr.plugins_.Arr.prototype.acts.Clear,
+	cr.system_object.prototype.cnds.For,
+	cr.plugins_.Arr.prototype.acts.SetX,
+	cr.system_object.prototype.acts.AddVar,
+	cr.plugins_.Function.prototype.cnds.CompareParam,
+	cr.plugins_.Arr.prototype.acts.Push,
+	cr.plugins_.Function.prototype.exps.Param,
+	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
+	cr.plugins_.Sprite.prototype.acts.SetVisible,
+	cr.plugins_.Arr.prototype.exps.Front,
+	cr.system_object.prototype.acts.SubVar,
+	cr.plugins_.Arr.prototype.acts.Pop,
+	cr.plugins_.Sprite.prototype.acts.MoveToTop,
+	cr.plugins_.Arr.prototype.acts.Delete,
+	cr.plugins_.Arr.prototype.cnds.ArrForEach,
+	cr.plugins_.Arr.prototype.exps.CurValue
 ];};
+
