@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1676360703,
+	"version": 1676518509,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -111,6 +111,9 @@
 		"images/twbackbutton-sheet0.png",
 		"images/sprite-sheet0.png",
 		"images/sprite2-sheet0.png",
+		"images/du_introductiontext-sheet0.png",
+		"images/tw_introductiontext-sheet0.png",
+		"images/ld_instructionwords-sheet0.png",
 		"media/special (3).m4a",
 		"media/special (3).ogg",
 		"icon-16.png",
